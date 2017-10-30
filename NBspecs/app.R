@@ -225,19 +225,19 @@ server <- function(input, output){
      })
      
      output$Info1<-renderPrint({
-       cat('Dimension of original dataset "recipes": ', dim(recipes)[1], ',', dim(recipes)[2])
+       cat('- Dimension of original dataset "recipes": ', dim(recipes)[1], ',', dim(recipes)[2])
      })
      
      output$Info2<-renderPrint({
-       cat("Numbers of features in total: ", dim(dtm)[2])
+       cat("- Numbers of features in total: ", dim(dtm)[2])
      })
      
      output$Info3<-renderPrint({
-       cat("Number of features used in training: ", dim(trainNB.sub)[2])
+       cat("- Number of features used in training: ", dim(trainNB.sub)[2])
      })
      
      output$Info4<-renderPrint({
-       cat('Features used in training: ', paste0('"', names(trainNB.sub), '"'))
+       cat('- Features used in training:', paste0('"', names(trainNB.sub), '"'))
      })
      
      output$Info5<-renderPrint({
