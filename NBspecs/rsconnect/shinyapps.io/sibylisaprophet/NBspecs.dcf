@@ -1,0 +1,12 @@
+name: NBspecs
+title: NBspecs
+username:
+account: sibylisaprophet
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 230390
+bundleId: 1051082
+url: https://sibylisaprophet.shinyapps.io/NBspecs/
+when: 1509323125.79995
+asMultiple: FALSE
+asStatic: FALSE
